@@ -1,0 +1,15 @@
+.datatable_hide-th-action .slds-has-button-menu .slds-th__action-button {
+    display: none;
+}
+
+.datatable_hide-th-action .slds-has-button-menu > a.slds-th__action {
+    padding: 8px;
+}
+
+.datatable_th-center .slds-has-button-menu > a.slds-th__action {
+    justify-content: center;
+}
+
+.datatable_hide-row-number table.slds-table td:first-child, th:first-child {
+    display: none;
+}
