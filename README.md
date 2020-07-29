@@ -38,6 +38,5 @@ connectedCallback() {
 ## Usefull classes
 | Class         | Description   |
 | ------------- | ------------- |
-| datatable_hide-th-action  | Hide '  |
-| datatable_th-center       | Content Cell  |
-| datatable_hide-row-number | Content Cell  |
+| datatable_th-center       | Align header to center  |
+| datatable_hide-row-number | Hide Row Number Column  |
