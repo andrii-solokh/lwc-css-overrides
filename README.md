@@ -28,7 +28,7 @@ connectedCallback() {
 5. Add required classes to elements in template:
 ```
 <lightning-datatable
-  class="datatable_hide-th-action"
+  class="datatable_hide-row-number"
   style="font-size: 0.6875rem;"
   columns={columns}
   data={items}
