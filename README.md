@@ -1,13 +1,8 @@
-<a href="https://githubsfdeploy.herokuapp.com">
-  <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
-</a>
-
 # lwc-css-overrides
 LWC uses shadow DOM which prevents modifying CSS of standard lightning components. This repository contains instruction how to override standard LWC CSS and offers useful, often needed overrides.
 
 ## How to use
-1. Deploy it to your org with 'Salesforce Deploy' button.
+1. Deploy Static Resource 'LWC_CSS_Overrides'.
 2. In LWC import 'loadStyle' method:
 ```
 import { loadStyle } from 'lightning/platformResourceLoader';
